@@ -15,10 +15,10 @@ class CustomException(Exception):
         return self.error_messgae
 
 
-if __name__=='__main__':
-    try :
-        a=1/0
-    except Exception as e:
-        logging.info("Divide by zero hui hui hoye hoi")
-        raise CustomException(e,sys)
+# if __name__=='__main__':
+#     try :
+#         a=1/0
+#     except Exception as e:
+#         logging.info("Divide by zero hui hui hoye hoi")
+#         raise CustomException(e,sys)
         
